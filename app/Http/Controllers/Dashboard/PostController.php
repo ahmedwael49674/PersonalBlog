@@ -70,7 +70,7 @@ class PostController extends Controller
   public function update(PostRequest $request, Int $id)
   {
     $post   =  Post::findOrFail($id);
-    $this->RemoveLogoIfExist($post);
+    $request->has('image')?$this->RemoveLogoIfExist($post):'';
     $post->update($request->all());
     return redirect('dashboard/post')->with('msg', 'Post updated successfully.');
   }

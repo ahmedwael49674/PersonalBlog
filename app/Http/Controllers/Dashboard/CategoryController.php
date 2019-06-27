@@ -68,7 +68,7 @@ class CategoryController extends Controller
   public function update(CategoryRequest $request, Int $id)
   {
     $category  = category::findOrFail($id);
-    $this->RemoveLogoIfExist($category);
+    $request->has('image')?$this->RemoveLogoIfExist($category):'';
     $category->update($request->all());
 
     return redirect()->back()->with('msg', 'category updated successfully.');
