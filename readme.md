@@ -32,6 +32,6 @@ It's a system that allow store Categories and Posts with:
 
 Note: 
 1. To access the dashboard use (/dashboard) url
-2. runnig seeder will create user with (email: admin@admin.com ,password: password ) , eight categorys and 13 post foreach category.
-3. use vendor/bin/phpunit command to run the tests 
+2. Runnig seeder will create user with (email: admin@admin.com, password: password) , eight categories and 13 post for each category.
+3. Use vendor/bin/phpunit command to run the tests 
 
