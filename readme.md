@@ -1,5 +1,5 @@
 # PersonalBlog
- ![alt text](https://github.com/ahmedwael49674/Mini-CRM/blob/master/diagrams/view.png)
+ ![alt text](https://github.com/ahmedwael49674/PersonalBlog/blob/master/diagrams/view.png)
 ## Summary
 It's a system that allow store Categories and Posts with: 
 - Complete CRUD functionality over both Categories and Posts.
@@ -15,7 +15,7 @@ It's a system that allow store Categories and Posts with:
 ## Description
 
 ### ERD  diagram 
- ![alt text](https://github.com/ahmedwael49674/Mini-CRM/blob/master/diagrams/ERD.png)
+ ![alt text](https://github.com/ahmedwael49674/PersonalBlog/blob/master/diagrams/erd.png)
  1. users: store all the user's data within the system.
  2. Categories: store all the category data.
  3. Posts: store posts data with foreign category_id which is a reference to companies table.
