@@ -1,7 +1,7 @@
 # PersonalBlog
  ![alt text](https://github.com/ahmedwael49674/PersonalBlog/blob/master/diagrams/view.png)
 ## Summary
-It's a system that allow store Categories and Posts with: 
+It's a simple personal blog system that allow store Categories and Posts with: 
 - Complete CRUD functionality over both Categories and Posts.
 - validation function over all the system inputs.
 - pagination for showing Companies/Employees list.
