@@ -13,7 +13,11 @@ class AppServiceProvider extends ServiceProvider
 public function boot()
 {
     Schema::defaultStringLength(191);
-    View::share('categories', Category::all());
+    View::composer('partial.nav',function($view){
+        if(Schema::hasTable('categories')){
+            $view->with('categories', Category::all());
+        }
+    });
 }
 
 
